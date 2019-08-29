@@ -1,7 +1,7 @@
 //Project # 1
 package com.Marilize;
 
-public class SpeedConverter {
+public class Project_1_SpeedConverter {
     public static void main(String[] args) {
         long miles = SpeedConverter.toMilesPerHour(1.5);
         System.out.println("Miles = " + miles);
