@@ -1,6 +1,6 @@
 //PROJECT # 2
 
-public class MegaBytesConverter {
+public class Project_2_MegaBytesConverter {
         public static void main(String[] args) {
             printMegaBytesAndKiloBytes(5000);
         }
