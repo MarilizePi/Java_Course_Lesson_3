@@ -1,4 +1,4 @@
-package com.Marilize;
+//PROJECT # 2
 
 public class MegaBytesConverter {
         public static void main(String[] args) {
