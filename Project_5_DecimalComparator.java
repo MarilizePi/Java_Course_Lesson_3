@@ -1,6 +1,4 @@
-package com;
-
-public class DecimalComparator {
+public class Project_5_DecimalComparator {
     public static void main(String[] args) {
         areEqualByThreeDecimalPlaces(3.1756, -3.175);
     }
