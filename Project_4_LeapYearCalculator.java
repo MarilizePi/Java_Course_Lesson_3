@@ -1,4 +1,5 @@
-public class Project_4_LeapYearCalculator {
+public class LeapYearCalculator {
+    
     public static void main(String[] args) {
         isLeapYear(-1200);
     }
