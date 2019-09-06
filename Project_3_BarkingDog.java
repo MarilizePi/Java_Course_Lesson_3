@@ -1,4 +1,5 @@
-public class Project_3_BarkingDog {
+public class BarkingDog {
+    
     public static void main(String[] args) {
         boolean print = shouldWakeUp(true, -1);
         System.out.println(print);
