@@ -1,4 +1,5 @@
-public class Project_8_AreaCalculator {
+public class AreaCalculator {
+    
     public static void main(String[] args) {
         area(-12);
         area(4,1);
