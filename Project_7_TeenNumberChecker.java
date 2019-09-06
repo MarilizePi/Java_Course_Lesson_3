@@ -1,4 +1,5 @@
-public class Project_7_TeenNumberChecker {
+public class TeenNumberChecker {
+    
     public static void main(String[] args) {
         hasTeen(13,5,3);
         hasTeen(55,44,19);
