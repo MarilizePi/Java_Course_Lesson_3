@@ -1,4 +1,5 @@
-public class Project_6_EqualSum_Checker {
+public class EqualSum_Checker {
+    
     public static void main(String[] args) {
         hasEqualSum(3,2,6);
         hasEqualSum(2,-2,0);
