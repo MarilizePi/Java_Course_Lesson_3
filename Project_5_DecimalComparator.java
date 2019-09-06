@@ -1,4 +1,5 @@
-public class Project_5_DecimalComparator {
+public class DecimalComparator {
+    
     public static void main(String[] args) {
         areEqualByThreeDecimalPlaces(3.1756, -3.175);
     }
