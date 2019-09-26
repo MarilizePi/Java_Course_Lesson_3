@@ -1,4 +1,4 @@
-public class NumberToWords {
+public class Project_23_NumberToWords {
 
     public static void main(String[] args) {
         numberToWords(123);
