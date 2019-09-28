@@ -1,4 +1,4 @@
-public class FlourPackProblem {
+public class Project_24_FlourPackProblem {
     public static void main(String[] args) {
         canPack(1, 0, 4);
         canPack(1, 0, 5);
