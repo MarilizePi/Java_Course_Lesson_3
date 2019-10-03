@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class Person {
+public class Project_30_Person {
 
     private String firstName;
     private String lastName;
