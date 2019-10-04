@@ -1,4 +1,4 @@
-public class Wall {
+public class Project_31_Wall {
 
     private double width;
     private double height;
