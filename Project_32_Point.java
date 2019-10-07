@@ -1,4 +1,4 @@
-public class Point {
+public class Project_32_Point {
 
     private int x;
     private int y;
