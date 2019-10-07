@@ -20,9 +20,11 @@
 public class Project_15_NumberPalindrome {
 
     public static void main(String[] args) {
-        isPalindrome(121);
+        isPalindrome(9555559);
         isPalindrome(123);
         isPalindrome(-222);
+        isPalindrome(0);
+        isPalindrome(45433);
     }
 
     public static boolean isPalindrome(int number) {
@@ -37,11 +39,24 @@ public class Project_15_NumberPalindrome {
         }
 
         if (compareInputAndOutput == reverseNumber) {
-            System.out.println("The number " + number + " is Palindrome");
+            System.out.println("The number " + compareInputAndOutput + " is Palindrome");
             return true;
         } else {
-            System.out.println("The number " + number + " is NOT Palindrome");
+            System.out.println("The number " + compareInputAndOutput + " is NOT Palindrome");
             return false;
         }
     }
 }
+
+/*
+OUTPUT
+
+The number 9555559 is Palindrome
+The number 123 is NOT Palindrome
+The number -222 is Palindrome
+The number 0 is Palindrome
+The number 45433 is NOT Palindrome
+
+Process finished with exit code 0
+
+ */
