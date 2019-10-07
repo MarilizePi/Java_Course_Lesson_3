@@ -6,16 +6,12 @@
  * Second, I can create a variable called "number".
  * Third, I need another variable to store the remainder. I called it "remainder" :)
  * Fourth, I need another variable to store the reversed number. I called it "reverseNumber.
- * In order to calculate the remainder, I have to apply the module operator (%) to get the
- * last digit.
+ * In order to calculate the remainder, I have to apply the module operator (%) to get the last digit.
  * Fifth, I have to break down my number, so I remove the last digit and stay with the remaining number.
- * Sixth, my reverse number is zero by default. So, multiplying zero and 10, I get zero, + my
- * remainder, which is the "remainder" number.
+ * Sixth, my reverse number is zero by default. So, multiplying zero and 10, I get zero, + my remainder, which is the "remainder" number.
  * The loop will go on until it checks the whole number and it gives me the result: true or false.
  * ATTENTION: I also need an "if statement" to compare "number" and "reverseNumber". For this,
- * I created a variable called "compareInputAndOutput and set it equal to number, because we
- * want the result to be true.*/
-
+ * I created a variable called "compareInputAndOutput and set it equal to number, because we want the result to be true.*/
 
 public class Project_15_NumberPalindrome {
 
@@ -32,11 +28,12 @@ public class Project_15_NumberPalindrome {
         int reverseNumber = 0;
         int compareInputAndOutput = number;
 
+        //MY FAVORITE PART/BLOCK OF CODE
         while (number != 0) {
             remainder = number % 10;
             number = number / 10;
             reverseNumber = (reverseNumber * 10) + remainder;
-        }
+        } //END OF FAVORITE PART
 
         if (compareInputAndOutput == reverseNumber) {
             System.out.println("The number " + compareInputAndOutput + " is Palindrome");
