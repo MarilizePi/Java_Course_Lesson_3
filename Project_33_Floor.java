@@ -1,4 +1,4 @@
-public class Floor {
+public class PProject_33_Floor {
 
     private double width;
     private double length;
