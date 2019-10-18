@@ -1,4 +1,4 @@
-public class Cylinder extends Circle {
+public class Project_35_Cylinder extends Circle {
 
     private double height;
 
